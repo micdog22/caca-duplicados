@@ -1,4 +1,4 @@
-# Caça Duplicados — encontre arquivos duplicados e libere espaço (Python)
+# Caça Duplicados: encontre arquivos duplicados e libere espaço (Python)
 
 Fotos copiadas três vezes "por garantia", o mesmo PDF baixado de novo, aquele vídeo que está no backup e também nos Downloads. O **caca-duplicados** compara o conteúdo dos arquivos (não o nome), mostra os grupos de cópias ordenados pelo espaço desperdiçado e, só se você pedir, move as cópias extras para uma pasta de quarentena, apaga ou troca por hardlinks.
 
@@ -152,4 +152,4 @@ Issues e pull requests são bem-vindos.
 
 ## Licença
 
-MIT — veja [LICENSE](LICENSE).
+MIT. Veja [LICENSE](LICENSE).
