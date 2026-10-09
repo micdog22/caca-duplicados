@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "caca-duplicados"
+version = "1.0.0"
+description = "Encontra arquivos duplicados pelo conteúdo, mostra quanto espaço dá para liberar e, se você pedir, move, apaga ou troca as cópias por hardlinks."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+keywords = ["duplicados", "arquivos", "espaco-em-disco", "hash", "blake2", "limpeza", "cli"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://github.com/micdog22/caca-duplicados"
+Issues = "https://github.com/micdog22/caca-duplicados/issues"
+
+[project.scripts]
+caca-duplicados = "caca_duplicados.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
